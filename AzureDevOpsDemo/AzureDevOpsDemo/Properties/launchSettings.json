@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "AzureDevOpsDemo (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "AzureDevOpsDemo (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}
