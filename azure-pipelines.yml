@@ -3,9 +3,13 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
+# Tells Azure what will trigger this pipeline
+# main means when there is code checked into the main branch
+# of the repository then trigger build
 trigger:
 - main
 
+# Build agent image to use to build the code
 pool:
   vmImage: ubuntu-latest
 

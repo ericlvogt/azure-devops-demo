@@ -4,4 +4,6 @@ Following the instructions from [Microsoft Create your first pipeline](https://l
 3. Connect to the repository source
 4. Select repository to build from ![[Pasted image 20230203101610.png|500]]
 5. Configure. I will select starter since I don't have an existing pipeline ![[Pasted image 20230203102213.png|500]]
-6. You should now have 
+6. You should now have a pipeline configured
+7. There is a limit to build agents set by Microsoft ![[Pasted image 20230203110215.png]]
+8. 
