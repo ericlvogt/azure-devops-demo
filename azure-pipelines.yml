@@ -42,7 +42,8 @@ steps:
 - task: VSTest@2
   inputs:
     configuration: '$(buildConfiguration)'
-    testFiltercriteria: '**/*.Test.dll'
+    testSelector: testAssemblies
+    testAssemblyVer2: '**/*Test.dll'
 
 # dotnet build and dotnet test are not supported when using Windows 10 SDK
 # - task: DotNetCoreCLI@2
