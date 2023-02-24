@@ -35,10 +35,16 @@ steps:
   inputs:
    command: build
    projects: '**/*.csproj'
-   arguments: '/p:Platform=x64 --configuration $(buildConfiguration)'
+   arguments: '/p:Platform=$(buildPlatform) --configuration $(buildConfiguration)'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: DotNetCoreCLI@2
+  displayName: Test
+  inputs:
+    command: test
+    projects: '**/*Test.csproj'
+    arguments: '--configuration $(buildConfiguration)'
