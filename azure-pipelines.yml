@@ -12,7 +12,7 @@ trigger:
 
 # Build agent image to use to build the code
 pool:
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 variables:
   solution: '**/*.sln'
