@@ -13,14 +13,14 @@ namespace AzureDevOpsDemo.Test
         public void SayHelloWorld_WhenCalled_ReturnsHelloWorld()
         {
             var dummy = new DummyClass();
-            Assert.AreEqual("Hello World!", dummy.SayHelloWorld());
+            Assert.That(dummy.SayHelloWorld(), Is.EqualTo("Hello World!"));
         }
 
         [Test]
         public void SayGoodbyeWorld_WhenCalled_ReturnsGoodbyeWorld()
         {
             var dummy = new DummyClass();
-            Assert.AreEqual("Goodbye World", dummy.SayGoodbyeWorld());
+            Assert.That(dummy.SayGoodbyeWorld(), Is.EqualTo("Goodbye World"));
         }
     }
 }

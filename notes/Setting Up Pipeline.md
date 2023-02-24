@@ -7,4 +7,4 @@ Following the instructions from [Microsoft Create your first pipeline](https://l
 6. You should now have a pipeline configured. There will be an azure-pipelines.yml file at the root of your repository
 7. There is a limit to build agents set by Microsoft ![[Pasted image 20230203110215.png]]
 8. Now lets set up the pipeline to build our .NET application - Follow [Microsoft Doc](https://learn.microsoft.com/en-us/azure/devops/pipelines/ecosystems/dotnet-core?view=azure-devops&tabs=dotnetfive)
-9. 
+9. For Microsoft hosted agents the images available are https://learn.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml
