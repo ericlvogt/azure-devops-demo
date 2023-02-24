@@ -15,7 +15,7 @@ namespace AzureDevOpsDemo
 
         public string SayGoodbyeWorld()
         {
-            return "Goodbye World";
+            return "Goodbye World :(";
         }
     }
 }
