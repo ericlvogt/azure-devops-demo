@@ -43,7 +43,7 @@ steps:
   inputs:
     configuration: '$(buildConfiguration)'
     testSelector: testAssemblies
-    testAssemblyVer2: '**/bin/**.Test.dll'
+    testAssemblyVer2: '**/bin/**/*.Test.dll'
 
 # dotnet build and dotnet test are not supported when using Windows 10 SDK
 # - task: DotNetCoreCLI@2
