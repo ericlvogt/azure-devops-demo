@@ -16,7 +16,7 @@ pool:
 
 variables:
   solution: '**/*.sln'
-  buildPlatform: 'x86'
+  buildPlatform: 'x64'
   buildConfiguration: 'Release'
 
 steps:
@@ -35,7 +35,7 @@ steps:
   inputs:
    command: build
    projects: '**/*.csproj'
-   arguments: '--configuration $(buildConfiguration)'
+   arguments: '/p:Platform=x64 --configuration $(buildConfiguration)'
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
 - script: |
