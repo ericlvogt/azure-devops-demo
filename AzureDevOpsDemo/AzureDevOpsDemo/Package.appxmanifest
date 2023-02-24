@@ -9,7 +9,7 @@
   <Identity
     Name="ed511ab9-f933-4433-a69d-355557974063"
     Publisher="CN=ericv"
-    Version="1.0.0.0" />
+    Version="1.0.1.0" />
 
   <Properties>
     <DisplayName>AzureDevOpsDemo</DisplayName>
