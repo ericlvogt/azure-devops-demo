@@ -1,4 +1,4 @@
-The goal of this repository is to create a demonstration project for how to use Azure DevOps in a C# .NET Framework project.
+The goal of this repository is to create a demonstration project for how to use [[Azure DevOps]] in a C# .NET project.
 
 I'm unclear how much configuration needs to be done on server vs in repo so on server aspects of this project will be documented in this Obsidian vault with screenshots and instructions.
 

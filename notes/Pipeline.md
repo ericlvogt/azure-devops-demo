@@ -1,5 +1,7 @@
 Pipelines are automated processes that carry out a sequence of tasks. These can be automatically or manually triggered. Their main purpose is to automate building and deploying code changes but can be configured to do much more including analytics and testing.
 
+[[Setting Up Pipeline]]
+
 ## View From DevOps
 Pipelines include
 - Build pipelines

@@ -12,5 +12,5 @@ Cloud has had recent history of outages for example [Reuters Article from 2023-0
 The way the pricing breaks down today as soon as you start paying for a build agent from Microsoft they give you unlimited build minutes so there is no reason not to use build agents as much as possible.
 
 ## Conclusions
-As soon as you have a paid subscription for cloud there is no reason to be stingy with amount of builds you execute 
-For on prem you might want to consider costs of high use including hardware lifetime and cost of electricity. cloud there is no reason to be stingy with amount of builds you execute 
+As soon as you have a paid subscription for cloud there is no reason to limit amount of builds you execute 
+For on prem you might want to consider costs of high use including hardware lifetime and cost of electricity. cloud there is no reason to limit amount of builds you execute 
