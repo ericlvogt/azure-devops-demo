@@ -17,7 +17,6 @@ steps:
 - task: Nuget
 - script: echo Hello, world!
   displayName: 'Run a one-line script'
-- task: 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
