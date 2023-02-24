@@ -15,6 +15,10 @@ The goal will be to automate build and deploy steps. Find out how to integrate a
 
 Also to find out the associated costs with implementing the Azure DevOps solution into a project. Propose alternatives.
 
+## Resources
+- [Microsoft Documentation](https://learn.microsoft.com/en-us/azure/devops)
+- [AZ-400 Course on Udemy](https://www.udemy.com/course/azure100/?src=sac&kw=AZ-400+Designing+and)
+
 ## Additional Insights
 It would be nice to try out integrating:
 Azure Artifacts
