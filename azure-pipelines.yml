@@ -32,21 +32,34 @@ steps:
 - task: NuGetCommand@2
   inputs:
     restoreSolution: '$(solution)'
-- task: DotNetCoreCLI@2
-  displayName: Build
+    allowPackageConflicts: 
+
+- task: VSBuild@1
   inputs:
-   command: build
-   projects: '**/*.csproj'
-   arguments: '/p:Platform=$(buildPlatform) --configuration $(buildConfiguration)'
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
-- script: |
-    echo Add other tasks to build, test, and deploy your project.
-    echo See https://aka.ms/yaml
-  displayName: 'Run a multi-line script'
-- task: DotNetCoreCLI@2
-  displayName: Test
+    configuration: '$(buildConfiguration)'
+    platform: '$(buildPlatform)'
+    solution: '**/*.sln'
+
+- task: VSTest@2
   inputs:
-    command: test
-    projects: '**/*Test.csproj'
-    arguments: '--configuration $(buildConfiguration)'
+    configuration: '$(buildConfiguration)'
+
+# dotnet build and dotnet test are not supported when using Windows 10 SDK
+# - task: DotNetCoreCLI@2
+#   displayName: Build
+#   inputs:
+#    command: build
+#    projects: '**/*.csproj'
+#    arguments: '/p:Platform=$(buildPlatform) --configuration $(buildConfiguration)'
+# - script: echo Hello, world!
+#   displayName: 'Run a one-line script'
+# - script: |
+#     echo Add other tasks to build, test, and deploy your project.
+#     echo See https://aka.ms/yaml
+#   displayName: 'Run a multi-line script'
+# - task: DotNetCoreCLI@2
+#   displayName: Test
+#   inputs:
+#     command: test
+#     projects: '**/*Test.csproj'
+#     arguments: '--configuration $(buildConfiguration)'
