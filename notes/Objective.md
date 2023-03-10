@@ -4,7 +4,7 @@ I'm unclear how much configuration needs to be done on server vs in repo so on s
 
 The goal will be to automate build and deploy steps. Find out how to integrate additional steps to the build and deploy process including:
 - Automated Unit and Integration Testing
-- Analytics
+- [[Analytics]]
 	- Build deploy stats including 
 		- build time
 		- deploy time
@@ -18,6 +18,7 @@ Also to find out the associated costs with implementing the Azure DevOps solutio
 ## Resources
 - [Microsoft Documentation](https://learn.microsoft.com/en-us/azure/devops)
 - [AZ-400 Course on Udemy](https://www.udemy.com/course/azure100/?src=sac&kw=AZ-400+Designing+and)
+- [Azure DevOps Labs](https://www.azuredevopslabs.com/)
 
 ## Additional Insights
 It would be nice to try out integrating:
